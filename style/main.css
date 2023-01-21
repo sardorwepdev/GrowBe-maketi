@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    color: black;
+}
+.header{
+    align-items:center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+ ul{ 
+    display: flex;
+    transition: all .3s;;
+    list-style: none;
+    margin-left: 700px;
+}
+ul li{
+    padding:30px ;
+}
+.row{
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+.img1{
+    width: 80px;
+    height: 60px;
+}
+.yur{
+    color: red;
+    font-size: 60px;
+    animation: sar 3s;
+    animation: 3s;
+}
+
+
+
+
+
+
+@keyframes sar{
+    0%{
+        width: 400px;
+        background-color: aqua;
+        background-image: linear-gradient(red ,blue,green,black,aqua);
+color: aliceblue;
+    }
+}
